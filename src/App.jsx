@@ -21,7 +21,6 @@ const App = () => {
 
     fetchMovies();
 
-    // Scroll to top button functionality
     const handleScroll = () => {
       const button = document.getElementById('scrollToTopBtn');
       if (window.scrollY > 300) {
